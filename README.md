@@ -1,4 +1,4 @@
-# 🧠 AI Chatbot with PyTorch, NER, and Streamlit
+#  AI Chatbot with PyTorch, NER, and Streamlit
 
 A smart AI-powered chatbot built from scratch using:
 - **PyTorch** for custom intent classification
@@ -8,13 +8,13 @@ A smart AI-powered chatbot built from scratch using:
 
 ---
 
-## 🚀 Features
+##  Features
 
-✅ Intent classification using a trained PyTorch model  
-✅ Entity extraction (e.g., `GPE`, `DATE`) using spaCy  
-✅ Multi-turn conversation with memory of previous entities  
-✅ Dynamic response templates (`"Hi there from {GPE}"`)  
-✅ Custom responses via mapped Python functions  
-✅ Streamlit-based frontend chat UI  
+-> Intent classification using a trained PyTorch model  
+-> Entity extraction (e.g., `GPE`, `DATE`) using spaCy  
+-> Multi-turn conversation with memory of previous entities  
+-> Dynamic response templates (`"Hi there from {GPE}"`)  
+-> Custom responses via mapped Python functions  
+-> Streamlit-based frontend chat UI  
 
 ---
