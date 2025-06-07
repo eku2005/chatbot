@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "What's up?"],
+      "responses": [
+        "Hello! How can I help you today in {GPE}?",
+        "Hi there! What's going on in {GPE}?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I'm leaving"],
+      "responses": [
+        "Goodbye! Safe travels from {GPE}!",
+        "See you later! Have a great day in {GPE}!"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "Tell me about coding",
+        "What is software development?",
+        "Define programming"
+      ],
+      "responses": [
+        "Programming means writing instructions for a computer. Would you like to learn it in {GPE}?",
+        "Software development is the process of designing and building software. Do you want resources near {GPE}?"
+      ]
+    },
+    {
+      "tag": "resource",
+      "patterns": [
+        "How to learn to code?",
+        "Best programming resources",
+        "Suggest tutorials"
+      ],
+      "responses": [
+        "Try freeCodeCamp or Coursera. Want resources specific to {GPE}?",
+        "Check out YouTube channels like Tech With Tim or NeuralNine. Any preferences for learning in {GPE}?"
+      ]
+    },
+    {
+      "tag": "stocks",
+      "patterns": [
+        "What are my stocks?",
+        "Show my stock portfolio",
+        "Stocks for {DATE}"
+      ],
+      "responses": ["Here is your stock portfolio for {GPE} on {DATE}."]
+    }
+  ]
+}

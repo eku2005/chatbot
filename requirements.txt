@@ -1,0 +1,4 @@
+torch
+nltk
+spacy
+streamlit
